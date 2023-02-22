@@ -5,7 +5,7 @@ pipeline {
         ansiColor('xterm')
     }
     stages {
-        stage('Crear entorno EB'){
+        stage('Crear entorno EB B'){
             steps {
                  withAWS(credentials: 'Credentials_aws', region: 'eu-west-1') {
                     dir("app") {
